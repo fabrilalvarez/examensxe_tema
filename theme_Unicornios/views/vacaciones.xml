@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<openerp>
+    <data>
+        <!-- === Services Page === -->
+        <template name="Vacaciones page" id="website.vacaciones" page="True">
+            <t t-call="website.layout">
+                <div id="wrap">
+                    <div class="container">
+                        <h1>Mis vacaciones</h1>
+                        <ul class="vacaciones">
+                            <li><img src="../unicornios" />AQUI VA UNA IMAGEN</li>
+                            <li>Aqui va un texto de la ostia...</li>
+                        </ul>
+                    </div>
+                </div>
+            </t>
+        </template>
+        <record id="vacaciones_page_link" model="website.menu">
+            <field name="name">Vacaciones</field>
+            <field name="url">/page/vacaciones</field>
+            <field name="parent_id" ref="website.main_menu" />
+            <field name="sequence" type="int">100</field>
+        </record>
+    </data>
+</openerp>
