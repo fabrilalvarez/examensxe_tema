@@ -8,8 +8,10 @@
                     <div class="container">
                         <h1>Mis vacaciones</h1>
                         <ul class="vacaciones">
-                            <li><img src="/theme_Unicornios/static/img/unicornio.png"  height="50" width="50"/>AQUI VA UNA IMAGEN</li>
-                            <li>Aqui va un texto de la ostia...</li>
+                            <li>
+                                <img src="/theme_Unicornios/static/img/unicornio.png"  height="80" width="80"/>
+                                Aqui va un texto de la ostia...
+                            </li>
                         </ul>
                     </div>
                 </div>
