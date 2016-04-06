@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<openerp>
+    <data>
+        <!-- === Services Page === -->
+        <template name="Quienes Somos page" id="website.quiensomos" page="True">
+            <t t-call="website.layout">
+                <div id="wrap">
+                    <div class="container">
+                        <h1>Nosostros</h1>
+                        <ul class="quienessomos">
+                            <li>
+                                <img src="/theme_Unicornios/static/img/henry.jpg"  height="80" width="80"/>
+                                Soy Enrique VIII director general de la empresa....
+                            </li>
+                            <li>
+                                <img src="/theme_Unicornios/static/img/aristoteles.jpg"  height="80" width="80"/>
+                                Soy Aristoteles, Consejero General de Odoo....
+                            </li>
+                            <li>
+                                <img src="/theme_Unicornios/static/img/morganfreeman.png"  height="80" width="80"/>
+                                Soy Morgan Freeman, subvenciono esta empresa por el bien de la ciencia....
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </t>
+        </template>
+        <record id="quiensomos_page_link" model="website.menu">
+            <field name="name">Quien Somos</field>
+            <field name="url">/page/quiensomos</field>
+            <field name="parent_id" ref="website.main_menu" />
+            <field name="sequence" type="int">101</field>
+        </record>
+    </data>
+</openerp>

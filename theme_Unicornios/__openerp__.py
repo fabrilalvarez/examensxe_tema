@@ -12,6 +12,7 @@
         'views/assets.xml',
         'views/snippets.xml',
         'views/vacaciones.xml',
+        'views/quiensomos.xml',
     ],
     'category': 'Theme/Creative',
     'depends': ['website', 'website_blog', 'sale']
