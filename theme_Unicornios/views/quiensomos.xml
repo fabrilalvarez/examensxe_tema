@@ -6,7 +6,7 @@
             <t t-call="website.layout">
                 <div id="wrap">
                     <div class="container">
-                        <h1>Nosostros</h1>
+                        <h1>Nosotros</h1>
                         <ul class="quiensomos">
                             <li>
                                 <img src="/theme_Unicornios/static/img/henry.jpg"  height="80" width="80"/>
@@ -17,7 +17,7 @@
                                 Soy Aristoteles, Consejero General de Odoo....
                             </li>
                             <li>
-                                <img src="/theme_Unicornios/static/img/morganfreeman.png"  height="80" width="80"/>
+                                <img src="/theme_Unicornios/static/img/morganfreeman.jpg"  height="80" width="80"/>
                                 Soy Morgan Freeman, subvenciono esta empresa por el bien de la ciencia....
                             </li>
                         </ul>
